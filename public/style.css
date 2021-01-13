@@ -1,0 +1,289 @@
+.first-nav{
+  border-top: 1px solid blue;
+  /* border-bottom: solid gray; */
+  padding-top: 12px;
+  padding-bottom: 12px; 
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+}
+img{
+    margin-right: 10px;
+}
+.nav-heading{
+    font-size: large;
+    color:rgb(96, 177, 96);
+}
+.nav-heading:hover{
+    color: white;
+    font-size: large;
+}
+.nav-btn{
+    height: 36px;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    background-color:rgb(35, 207, 35);
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+.saylani-logo{
+    position: relative;
+    right: 20px;
+}
+ul{
+    border-top: 1px solid black;
+    border-bottom: solid blue;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin-top: 0% ;
+}
+li{
+    display: inline;
+  padding-left: 12px;
+}
+.li-text{
+    background-color: rgb(93, 224, 163);
+   cursor: pointer;
+    color: white;
+    font-size: large;
+    border-radius: 5em;
+}
+.li-text-hover:hover{
+    background-color: rgb(93, 224, 163);
+    height: 12px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 4em;
+}
+/* SLIDER */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    font-size: 50px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  .nav-pic-text{
+      color: red;
+  }
+  .intro-color{
+      color: rgb(46, 46, 199);
+  }
+  .duction-color{
+    color: rgb(12, 105, 12);
+}
+.introduction{
+    text-align: center;
+}
+.intro-heading:hover{
+    color: red;
+    font-size: large;
+}
+.calculate-item
+{
+  float: left;
+  width: 25%;
+  text-align: center;
+ color: white;
+ padding-top: 60px ;
+
+}
+.calculate
+{
+  height:260px;
+ background-color: rgb(46, 46, 199);
+}
+span{
+    color: green;
+}
+.WHAT-WE-ARE-DOING{
+    text-align: center;
+}
+.WHAT-WE-color{
+    color: rgb(46, 46, 199) ;
+}
+.ARE-DOING-color{
+  color: rgb(12, 105, 12);  
+}
+.images-box{
+   margin-left: 12px;
+   margin-right: 12px;
+   margin-top: 12px;
+   margin-bottom: 12px;
+   float: left;
+   width: 30%;
+   text-align: center;
+   color:  rgb(46, 46, 199);
+   background-color: whitesmoke;
+   box-shadow: 5px 10px 18px #888888;
+}
+.marquee-color
+{
+  background-color:rgb(50, 40, 199);
+  color:white;
+}
+.marquee-color :hover{
+  background-color:black;
+  color:white;
+  font-size: large;
+}
+.progects-main{
+  box-shadow: 5px 10px 18px #888888;
+ 
+}
+.progects-heading{
+  color:rgb(46, 46, 199) ;
+}
+.u-color{
+  color: rgb(12, 105, 12) ;
+}
+.progects-box
+{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  float: left;
+  width: 45%;
+  height:50%;
+  color: rgb(12, 105, 12);
+  text-align: center;
+  background-color: whitesmoke;
+  box-shadow: 5px 10px 18px #888888;
+}
+.hhh{
+  border-bottom: green 3px solid;
+  width: 60%;
+  text-align: center;
+}
+.image-gallery-text01{
+  color:rgb(46, 46, 199) ;
+}
+.image-gallery-text02{
+  color:rgb(12, 105, 12) ;
+}
+.image-heading{
+  text-align: center;
+}
+.progectsss-heading{
+  text-align: center;
+}
+.images-gallery-images
+{
+  position: relative;
+  width: 15%;
+  height: 20%;
+  left: 10%;
+}
+.color-color{
+ background-color: white;
+  height: 180px;
+}
+.about
+{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  height: 20%;
+  background-color: #000000c4;
+  color: white;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.useful-line{
+  border-bottom: 1px solid green;
+  width: 50%;
+}
